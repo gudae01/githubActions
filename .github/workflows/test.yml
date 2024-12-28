@@ -17,3 +17,8 @@ jobs:
         run: |
           echo "Good"
           echo "Morning"
+
+      - name: Github Acions 자체에 저장되어 있는 변수 사용하기
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
