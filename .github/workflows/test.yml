@@ -26,4 +26,4 @@ jobs:
       - name: 아무한테 노출이 되면 안 되는 값
         run: |
           echo ${{secrets.My_name }}
-          echo ${{serests.My_hobby}}
+          echo ${{secrets.My_hobby}}
